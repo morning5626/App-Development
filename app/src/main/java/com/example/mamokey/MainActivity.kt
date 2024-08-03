@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MamokeyTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "android",
+                        name = "android1",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
