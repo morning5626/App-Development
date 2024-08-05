@@ -2,4 +2,8 @@
 <resources>
 
     <style name="Theme.Mamokey" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Mamokey2" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Mamokey4" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "mamokey"
 include(":app")
+include(":app")
+include(":app")
+include(":app")
