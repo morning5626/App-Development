@@ -50,7 +50,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -70,4 +69,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // 추가 종속성
+    implementation("androidx.compose.ui:ui:1.3.0")
+    implementation("androidx.compose.material3:material3:1.0.0-alpha01")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.3.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
+    implementation("androidx.activity:activity-compose:1.4.0")
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    implementation("androidx.fragment:fragment-ktx:1.4.0")
 }

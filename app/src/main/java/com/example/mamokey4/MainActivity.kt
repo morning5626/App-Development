@@ -30,6 +30,19 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
+    override fun getItemCount(): Int = 3
+
+    override fun createFragment(position: Int): Fragment {
+        return when (position) {
+            0 -> MainFragment()
+            1 -> SubFragment1()
+            2 -> SubFragment2()
+            else -> MainFragment()
+        }
+    }
+}
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
